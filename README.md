@@ -65,4 +65,4 @@ Once the command is executed, you can re-open the `install.wim` file in 7-zip ag
 
 <br />
 
-After you've modified the values, you can then create a new Windows ISO with the updated `install.wim` file.
+After you've modified the values, you can then create a new Windows ISO with the updated `install.wim` file. Tools such as the [MSMG Toolkit](https://github.com/thecodermehedi/msmg-toolkit) can be used.
