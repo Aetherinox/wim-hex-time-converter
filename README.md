@@ -17,6 +17,11 @@ This tool allows you to convert the timestamps located in the `[1].xml` file. Th
 
 <p align="center"><img style="width: 70%;text-align: center;" src="images/2.png"></p>
 
+<br />
+
+### Demo
+You may view the demo [here](https://aetherinox.github.io/wim-hex-time-converter/)
+
 
 <br />
 
