@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<title>WimHexTimeConverter</title>
+		<link href="whtc.css" rel="stylesheet" type="text/css" media="all">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	</head>
+	<body>
+		<h1>WimHexTimeConverter</h1>
+		<div class="decoder">
+			<input type="text" class="highpart" placeholder="HIGHPART"><br>
+			<input type="text" class="lowpart" placeholder="LOWPART">
+			<button class="decode">Decode</button>
+		</div>
+		<div class="encoder">
+			<input type="text" class="date" placeholder="DATETIME">
+			<button class="encode">Encode</button>
+		</div>
+		<div class="debug">
+			<span><b>Input formatting</b></span><br>
+			<span>HIGHPART : 8-digit hex value</span>
+			<span>LOWPART  : 8-digit hex value</span>
+			<span>DATETIME : dd/mm/yyyy hh:mm:ss</span>
+		</div>
+		<script src="jquery-1.11.1.min.js"></script>
+		<script src="whtc.js"></script>
+	</body>
+</html>

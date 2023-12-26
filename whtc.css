@@ -1,0 +1,46 @@
+* {
+	font-family: monospace;
+	font-size: 16px;
+	margin: 0;
+}
+
+h1 {
+	font-size: 24px;
+	margin: 16px;
+	width: 320px;
+}
+
+input,
+button {
+	padding: 5px;
+}
+
+.decoder,
+.encoder,
+.debug {
+	margin: 16px;
+	width: 320px;
+}
+
+.debug {
+	border: 1px solid #aaa;
+	padding: 5px;
+}
+
+.debug span {
+	display: block;
+	white-space: pre;
+}
+
+.highpart,
+.lowpart {
+	color: green;
+}
+
+.highpart {
+	margin-bottom: 8px;
+}
+
+.date {
+	color: blue;
+}
